@@ -1,0 +1,11 @@
+
+allprojects {
+    group 'org.tw.pattern'
+    version '1.0-SNAPSHOT'
+
+    apply plugin :'java'
+
+    repositories {
+        mavenCentral()
+    }
+}

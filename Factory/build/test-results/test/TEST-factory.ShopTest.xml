@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="factory.ShopTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-11-14T10:19:23" hostname="Youpengs-MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="should_throw_error_if_given_number_is_out_of_range()" classname="factory.ShopTest" time="0.016"/>
+  <testcase name="should_get_correct_choice_according_to_given_number()" classname="factory.ShopTest" time="0.001"/>
+  <system-out><![CDATA[----------
+抱歉，您的选择本店无法提供
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

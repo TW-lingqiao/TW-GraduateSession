@@ -1,0 +1,10 @@
+hungry/D01_hungry/Hungry.java
+ hungry.D01_hungry.Hungry
+hungry/D02_lazyMan/LazyMan.java
+ hungry.D02_lazyMan.LazyMan
+hungry/D05_enum/EnumSingle.java
+ hungry.D05_enum.EnumSingle
+hungry/D04_InnerClass/Holder.java
+ hungry.D04_InnerClass.Holder
+ hungry.D04_InnerClass.Holder$1
+ hungry.D04_InnerClass.Holder$InnerClass

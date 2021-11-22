@@ -1,0 +1,10 @@
+hungry/LazyMan.java
+ hungry.LazyMan
+hungry/LazyManTest.java
+ hungry.LazyManTest
+hungry/EnumSingleTest.java
+ hungry.EnumSingleTest
+hungry/HungryTest.java
+ hungry.HungryTest
+hungry/LazyManTest0.java
+ hungry.LazyManTest0

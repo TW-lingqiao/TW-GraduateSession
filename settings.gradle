@@ -1,0 +1,5 @@
+rootProject.name = 'Pattern-Design'
+include 'Adapter'
+include 'Factory'
+include 'Singleton'
+include 'Strategy'

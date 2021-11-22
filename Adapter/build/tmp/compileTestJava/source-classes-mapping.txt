@@ -1,0 +1,3 @@
+com/example/adapterpattern/example_2/AdapterTest.java
+ com.example.adapterpattern.example_2.AdapterTest
+ com.example.adapterpattern.example_2.AdapterTest$SquarePegTest

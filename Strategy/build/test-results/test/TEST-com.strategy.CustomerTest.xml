@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.strategy.CustomerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-14T10:17:29" hostname="Youpengs-MacBook-Pro.local" time="0.023">
+  <properties/>
+  <testcase name="shouldOutputEmptyStatement()" classname="com.strategy.CustomerTest" time="0.019"/>
+  <testcase name="shouldOutputStatement()" classname="com.strategy.CustomerTest" time="0.002"/>
+  <testcase name="shouldOutputChangedStatement()" classname="com.strategy.CustomerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

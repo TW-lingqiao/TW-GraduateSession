@@ -1,0 +1,22 @@
+product/pc/PC.java
+ product.pc.PC
+product/phone/IPhone.java
+ product.phone.IPhone
+product/phone/Phone.java
+ product.phone.Phone
+factory/AbstractFactory.java
+ factory.AbstractFactory
+product/pc/MiPC.java
+ product.pc.MiPC
+product/Product.java
+ product.Product
+factory/XiaomiFactory.java
+ factory.XiaomiFactory
+Shop/Shop.java
+ Shop.Shop
+factory/AppleFactory.java
+ factory.AppleFactory
+product/pc/Mac.java
+ product.pc.Mac
+product/phone/MiPhone.java
+ product.phone.MiPhone
