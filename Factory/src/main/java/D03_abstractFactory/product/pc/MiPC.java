@@ -1,4 +1,4 @@
-package product.pc;
+package D03_abstractFactory.product.pc;
 
 public class MiPC extends PC {
   public MiPC(String color) {

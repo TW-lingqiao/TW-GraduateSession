@@ -1,8 +1,8 @@
-package Shop;
+package D03_abstractFactory.Shop;
 
-import factory.AbstractFactory;
-import factory.AppleFactory;
-import factory.XiaomiFactory;
+import D03_abstractFactory.factory.AbstractFactory;
+import D03_abstractFactory.factory.AppleFactory;
+import D03_abstractFactory.factory.XiaomiFactory;
 
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -28,7 +28,7 @@ public class Shop {
       System.out.println("完成选购电子产品");
     }
 
-  public static AbstractFactory findFactory(String brand, String productFamily, String color) {
+  private static AbstractFactory findFactory(String brand, String productFamily, String color) {
     AbstractFactory factory = null;
     switch (brand) {
       case "苹果":
@@ -56,7 +56,7 @@ public class Shop {
     return choice;
   }
 
-  public static String convertToValue(String brand, String[] values) {
+  private static String convertToValue(String brand, String[] values) {
     int number = Integer.parseInt(brand);
     try {
       return values[number - 1];

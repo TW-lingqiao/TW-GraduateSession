@@ -1,4 +1,4 @@
-package product.pc;
+package D03_abstractFactory.product.pc;
 
 public class Mac extends PC {
   public Mac(String color) {

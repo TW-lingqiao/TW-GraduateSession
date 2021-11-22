@@ -1,10 +1,10 @@
-package factory;
+package D03_abstractFactory.factory;
 
-import product.Product;
-import product.pc.MiPC;
-import product.pc.PC;
-import product.phone.MiPhone;
-import product.phone.Phone;
+import D03_abstractFactory.product.pc.PC;
+import D03_abstractFactory.product.phone.MiPhone;
+import D03_abstractFactory.product.phone.Phone;
+import D03_abstractFactory.product.Product;
+import D03_abstractFactory.product.pc.MiPC;
 
 public class XiaomiFactory implements AbstractFactory {
   private final String color;
@@ -26,14 +26,12 @@ public class XiaomiFactory implements AbstractFactory {
     }
   }
 
-  @Override
   public Phone makePhone() {
     prepareForMake();
     System.out.println("已获取小米手机其他拼装元件");
     return new MiPhone(color);
   }
 
-  @Override
   public PC makePC() {
     prepareForMake();
     System.out.println("已获取小米电脑其他拼装元件");
