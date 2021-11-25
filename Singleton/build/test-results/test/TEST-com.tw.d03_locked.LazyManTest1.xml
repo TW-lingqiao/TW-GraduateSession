@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tw.d03_locked.LazyManTest1" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-25T11:27:45" hostname="youzi530deMacBook-Pro.local" time="0.016">
+  <properties/>
+  <testcase name="when_the_condition_is_multithreaded_many_different_results_are_output()" classname="com.tw.d03_locked.LazyManTest1" time="0.016"/>
+  <system-out><![CDATA[Thread-10-ok
+Thread-6-ok
+Thread-7-ok
+Thread-13-ok
+Thread-11-ok
+Thread-12-ok
+Thread-4-ok
+Thread-9-ok
+Thread-5-ok
+Thread-8-ok
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,10 +1,5 @@
 package com.tw.d03_locked;
 
-import org.junit.Test;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-
 /**
  * 双重检测锁模式：DCL-加锁来避免线程问题
  * 问题：
@@ -30,7 +25,7 @@ public class LazyMan {
         System.out.println(Thread.currentThread().getName() + "-ok");
     }
 
-    private volatile static LazyMan lazyMan;
+    private static LazyMan lazyMan;
 
     public static LazyMan getInstance() {
         synchronized (LazyMan.class) {
@@ -39,5 +34,12 @@ public class LazyMan {
             }
         }
         return lazyMan;
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            new Thread(() -> { LazyMan.getInstance();
+            }).start();
+        }
     }
 }
