@@ -10,10 +10,15 @@ public class Product {
     this.color = color;
   }
 
-  public void make() {
-    System.out.println(brand +"已获取完成");
-    System.out.println(productFamily +"已获取完成");
-    System.out.println(color +"已获取完成");
-    System.out.println("产品：" + brand + color + productFamily + "已制作完成。");
+  public String getBrand() {
+    return brand;
+  }
+
+  public String getColor() {
+    return color;
+  }
+
+  public String getProductFamily() {
+    return productFamily;
   }
 }

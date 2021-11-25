@@ -1,8 +1,14 @@
-#Suggestion:
+# 结构图
 
-## AbstractFactory为什么要将以下两个方法暴露出来？：
-Phone makePhone();
+## 简单工厂模式
 
-PC makePC();
+![节点](./images/1.png)
 
-produce方法最终调用的是 makePhone 和 makePC，那为什么这两个方法要放到接口中，暴露给用户？
+## 工厂模式
+
+![节点](./images/工厂模式.png)
+![节点](./images/2.png)
+
+## 抽象工厂模式
+
+![节点](./images/3.png)
