@@ -1,4 +1,4 @@
-package com.tw.d03_locked;
+package com.tw.d04_volatilelocked;
 
 import org.junit.Test;
 
@@ -27,6 +27,13 @@ public class LazyMan {
     private static boolean flag = false;
 
     public LazyMan() {
+        synchronized (LazyMan.class) {
+            if (flag == false) {
+                flag = true;
+            } else {
+                throw new RuntimeException("不要试图使用反射来破坏");
+            }
+        }
         System.out.println(Thread.currentThread().getName() + "-ok");
     }
 
@@ -39,5 +46,22 @@ public class LazyMan {
             }
         }
         return lazyMan;
+    }
+
+    @Test
+    public void use_reflection_to_destroy3() throws Exception {
+
+//        Field flag = LazyMan.class.getDeclaredField("flag");
+//        flag.setAccessible(true);
+//
+//        Constructor<LazyMan> declaredConstructor = LazyMan.class.getDeclaredConstructor(null); //获取空参构造器
+//        declaredConstructor.setAccessible(true); //有一个非常霸道的方法，无视构造器私有化
+//        LazyMan instance1 = declaredConstructor.newInstance();
+//        flag.set(instance1,false);
+//
+//        LazyMan instance2 = declaredConstructor.newInstance(); //然后通过反射来创建对象
+//
+//        System.out.println(instance1);
+//        System.out.println(instance2);
     }
 }

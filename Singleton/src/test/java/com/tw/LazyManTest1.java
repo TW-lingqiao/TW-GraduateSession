@@ -2,25 +2,25 @@ package com.tw;
 
 import com.tw.d02_lazyman.LazyMan;
 import org.junit.jupiter.api.Test;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LazyManTest {
+public class LazyManTest1 {
 
     //单线程
     @Test
-    public void when_the_condition_is_singlethread_two_results_are_output() {
+    public void when_the_condition_is_singlethread_one_results_are_output() {
         new Thread(() -> {
-            String name = LazyMan.getInstance().getClass().getName();
-            assertEquals("Thread-4-ok",name);
+            String canonicalName = LazyMan.getInstance().getClass().getCanonicalName();
+            int modifiers = LazyMan.getInstance().getClass().getModifiers();
+            assertEquals("com.tw.d02_lazyman.LazyMan", canonicalName);
+            assertEquals(1,modifiers);
         }).start();
-
     }
 
-    //多线程
+    //多线程-每次输出都不一样
     @Test
-    public void when_the_condition_is_multithreaded_two_results_are_output() {
+    public void when_the_condition_is_multithreaded_many_different_results_are_output() {
         for (int i = 0; i < 10; i++) {
             new Thread(() -> {
                 LazyMan.getInstance();
@@ -37,8 +37,8 @@ public class LazyManTest {
      *             }
      *         }
      */
-//    @Test
-//    public void use_reflection_to_destroy1() throws Exception {
+    @Test
+    public void use_reflection_to_destroy1() throws Exception {
 //        LazyMan lazyMan = new LazyMan();
 //        LazyMan instance1 = lazyMan.getInstance();
 //        Constructor<LazyMan> declaredConstructor = LazyMan.class.getDeclaredConstructor(null); //获取空参构造器
@@ -47,7 +47,7 @@ public class LazyManTest {
 //
 //        System.out.println(instance1);
 //        System.out.println(instance2);
-//    }
+    }
 
     /**
      * 反射破坏另外一种方式:

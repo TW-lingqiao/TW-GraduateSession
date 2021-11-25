@@ -1,6 +1,5 @@
-package com.tw;
+package com.tw.d01_hungry;
 
-import com.tw.d01_hungry.Hungry;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

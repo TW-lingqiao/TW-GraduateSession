@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.HungryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-25T08:28:18" hostname="youzi530deMacBook-Pro.local" time="0.016">
-  <properties/>
-  <testcase name="should_init_the_resource_when_called()" classname="com.tw.HungryTest" time="0.016"/>
-  <system-out><![CDATA[执行了构造私有方法！
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -3,7 +3,7 @@ package com.tw;
 import com.tw.d03_locked.LazyMan;
 import org.junit.jupiter.api.Test;
 
-public class LazyManTest0 {
+public class LazyManTest2 {
 
     LazyMan lazyMan = new LazyMan();
 

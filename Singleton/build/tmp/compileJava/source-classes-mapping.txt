@@ -6,7 +6,9 @@ com/tw/d04_innerclass/Holder.java
  com.tw.d04_innerclass.Holder
  com.tw.d04_innerclass.Holder$1
  com.tw.d04_innerclass.Holder$InnerClass
-com/tw/d03_locked/LazyMan.java
- com.tw.d03_locked.LazyMan
 com/tw/d01_hungry/Hungry.java
  com.tw.d01_hungry.Hungry
+com/tw/d03_locked/LazyMan.java
+ com.tw.d03_locked.LazyMan
+com/tw/d04_volatilelocked/LazyMan.java
+ com.tw.d04_volatilelocked.LazyMan
