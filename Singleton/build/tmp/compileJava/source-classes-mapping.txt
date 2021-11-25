@@ -1,10 +1,12 @@
-hungry/D01_hungry/Hungry.java
- hungry.D01_hungry.Hungry
-hungry/D02_lazyMan/LazyMan.java
- hungry.D02_lazyMan.LazyMan
-hungry/D05_enum/EnumSingle.java
- hungry.D05_enum.EnumSingle
-hungry/D04_InnerClass/Holder.java
- hungry.D04_InnerClass.Holder
- hungry.D04_InnerClass.Holder$1
- hungry.D04_InnerClass.Holder$InnerClass
+com/tw/d05_enum/EnumSingle.java
+ com.tw.d05_enum.EnumSingle
+com/tw/d02_lazyman/LazyMan.java
+ com.tw.d02_lazyman.LazyMan
+com/tw/d04_innerclass/Holder.java
+ com.tw.d04_innerclass.Holder
+ com.tw.d04_innerclass.Holder$1
+ com.tw.d04_innerclass.Holder$InnerClass
+com/tw/d03_locked/LazyMan.java
+ com.tw.d03_locked.LazyMan
+com/tw/d01_hungry/Hungry.java
+ com.tw.d01_hungry.Hungry
