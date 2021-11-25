@@ -1,9 +1,10 @@
-package factory;
+package D03_abstractFactory.factory;
 
-import product.Product;
-import product.pc.Mac;
-import product.pc.PC;
-import product.phone.*;
+import D03_abstractFactory.product.pc.Mac;
+import D03_abstractFactory.product.pc.PC;
+import D03_abstractFactory.product.phone.IPhone;
+import D03_abstractFactory.product.phone.Phone;
+import D03_abstractFactory.product.Product;
 
 public class AppleFactory implements AbstractFactory {
   private final String color;
@@ -13,6 +14,7 @@ public class AppleFactory implements AbstractFactory {
     this.color = color;
     this.productFamily = productFamily;
   }
+
   @Override
   public Product produce() {
     switch (productFamily) {
@@ -25,14 +27,12 @@ public class AppleFactory implements AbstractFactory {
     }
   }
 
-  @Override
   public Phone makePhone() {
     prepareForMake();
     System.out.println("已获取苹果手机其他拼装元件");
     return new IPhone(color);
   }
 
-  @Override
   public PC makePC() {
     prepareForMake();
     System.out.println("已获取苹果电脑其他拼装元件");

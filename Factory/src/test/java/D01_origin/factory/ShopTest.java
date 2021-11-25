@@ -1,6 +1,6 @@
-package factory;
+package D01_origin.factory;
 
-import Shop.Shop;
+import D01_origin.Shop;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

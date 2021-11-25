@@ -1,6 +1,6 @@
-package product.phone;
+package D02_factoryMethod.product;
 
-public class IPhone extends Phone {
+public class IPhone implements Phone {
   public IPhone(String color) {
     this.make(color);
   }
