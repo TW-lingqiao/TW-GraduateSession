@@ -6,3 +6,10 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+#忽略所有target目录
+target/
+#忽略所有.idea目录
+.idea/
+#忽略所有.iml文件
+*.iml
+.class
