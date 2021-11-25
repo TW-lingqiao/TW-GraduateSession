@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tw.d05_reflex.LazyManTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-25T12:45:27" hostname="youzi530deMacBook-Pro.local" time="0.019">
-  <properties/>
-  <testcase name="should_pass_when_use_reflex_to_modify_flag()" classname="com.tw.d05_reflex.LazyManTest" time="0.019"/>
-  <system-out><![CDATA[Test worker-ok
-Test worker-ok
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
