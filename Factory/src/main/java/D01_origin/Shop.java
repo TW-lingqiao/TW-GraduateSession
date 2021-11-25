@@ -32,7 +32,7 @@ public class Shop {
     testExit(color);
 
     Product myProduct = new Product(brand, productFamily, color);
-    myProduct.make();
+    make(myProduct);
     System.out.println("----------");
     System.out.println("完成选购手机");
   }
@@ -51,6 +51,13 @@ public class Shop {
     if(item.equals("Exit")) {
       System.exit(0);
     }
+  }
+
+  private static void make(Product product) {
+    System.out.println(product.getBrand() +"已获取完成");
+    System.out.println(product.getProductFamily() +"已获取完成");
+    System.out.println(product.getColor() +"已获取完成");
+    System.out.println("产品：" + product.getBrand() + product.getColor() + product.getProductFamily() + "已制作完成。");
   }
 }
 
