@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.adapterpattern.example_2.AdapterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-14T10:19:12" hostname="Youpengs-MacBook-Pro.local" time="0.011">
+<testsuite name="com.example.adapterpattern.example_2.AdapterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-25T14:30:55" hostname="Nanyangs-MacBook-Pro.local" time="0.016">
   <properties/>
-  <testcase name="should_success_with_roundPeg()" classname="com.example.adapterpattern.example_2.AdapterTest" time="0.011"/>
+  <testcase name="should_success_with_roundPeg()" classname="com.example.adapterpattern.example_2.AdapterTest" time="0.016"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

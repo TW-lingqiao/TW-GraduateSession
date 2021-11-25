@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-14T10:19:12" hostname="Youpengs-MacBook-Pro.local" time="0.003">
+<testsuite name="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-11-25T14:30:55" hostname="Nanyangs-MacBook-Pro.local" time="0.005">
   <properties/>
-  <testcase name="继承的方式实现adapter" classname="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" time="0.001"/>
+  <testcase name="继承的方式实现adapter" classname="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" time="0.002"/>
   <testcase name="引入变量的方式实现adapter" classname="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" time="0.001"/>
   <testcase name="不使用adapter，通过函数重载的方式实现功能" classname="com.example.adapterpattern.example_2.AdapterTest$SquarePegTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
