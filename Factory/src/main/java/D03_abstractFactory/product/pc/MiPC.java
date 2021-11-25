@@ -9,4 +9,9 @@ public class MiPC extends PC {
   public void make(String color) {
     System.out.println("产品：小米" + color + "电脑已制作完成。");
   }
+
+  @Override
+  public String getDescription() {
+    return "MiPC";
+  }
 }

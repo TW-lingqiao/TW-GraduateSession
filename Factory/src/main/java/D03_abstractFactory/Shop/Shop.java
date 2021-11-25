@@ -3,6 +3,7 @@ package D03_abstractFactory.Shop;
 import D03_abstractFactory.factory.AbstractFactory;
 import D03_abstractFactory.factory.AppleFactory;
 import D03_abstractFactory.factory.XiaomiFactory;
+import D03_abstractFactory.product.Product;
 
 import java.util.Scanner;
 import java.util.stream.Stream;
@@ -23,9 +24,9 @@ public class Shop {
 
       AbstractFactory factory = findFactory(brand, productFamily, color);
 
-      factory.produce();
-      System.out.println("----------");
-      System.out.println("完成选购电子产品");
+      Product product = factory.produce();
+
+      handoverToCustomer(product);
     }
 
   private static AbstractFactory findFactory(String brand, String productFamily, String color) {
@@ -71,5 +72,10 @@ public class Shop {
     if(item.equals("Exit")) {
       System.exit(0);
     }
+  }
+
+  private static void handoverToCustomer(Product product) {
+    System.out.println("----------");
+    System.out.println("感谢选购" + product.getDescription() + "，欢迎下次光临");
   }
 }

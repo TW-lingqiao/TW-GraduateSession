@@ -8,4 +8,9 @@ public class IPhone extends Phone {
   public void make(String color) {
     System.out.println("产品：苹果" + color + "手机已制作完成。");
   }
+
+  @Override
+  public String getDescription() {
+    return "IPhone";
+  }
 }

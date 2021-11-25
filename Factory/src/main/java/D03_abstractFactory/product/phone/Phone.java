@@ -4,4 +4,6 @@ import D03_abstractFactory.product.Product;
 
 public abstract class Phone implements Product {
   public abstract void make(String color);
+
+
 }
