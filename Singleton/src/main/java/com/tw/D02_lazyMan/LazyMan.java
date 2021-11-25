@@ -1,4 +1,4 @@
-package hungry.D02_lazyMan;
+package com.tw.D02_lazyMan;
 
 /**
  * 懒汉式单例：

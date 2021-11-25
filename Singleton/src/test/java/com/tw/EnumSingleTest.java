@@ -1,12 +1,10 @@
-package hungry;
+package com.tw;
 
 
-import hungry.D05_enum.EnumSingle;
+import com.tw.D05_enum.EnumSingle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.Executable;
-import java.lang.reflect.InvocationTargetException;
 
 public class EnumSingleTest {
 

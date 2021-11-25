@@ -1,4 +1,4 @@
-package hungry.D04_InnerClass;
+package com.tw.D04_InnerClass;
 
 /**
  * 静态内部类的实现方式：

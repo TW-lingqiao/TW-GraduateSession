@@ -1,6 +1,6 @@
-package hungry;
+package com.tw;
 
-import hungry.D02_lazyMan.LazyMan;
+import com.tw.D02_lazyMan.LazyMan;
 import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;

@@ -1,4 +1,4 @@
-package hungry.D05_enum;
+package com.tw.D05_enum;
 
 /**
  * enum：
