@@ -1,4 +1,4 @@
-package com.tw.d06_innerclass;
+package com.tw.d07_innerclass;
 
 /**
  * 03-静态内部类的实现方式：(不安全的!)

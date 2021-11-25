@@ -1,14 +1,20 @@
-com/tw/d05_enum/EnumSingle.java
- com.tw.d05_enum.EnumSingle
+com/tw/d06_innerclass/Holder.java
+ com.tw.d06_innerclass.Holder
+ com.tw.d06_innerclass.Holder$1
+ com.tw.d06_innerclass.Holder$InnerClass
 com/tw/d02_lazyman/LazyMan.java
  com.tw.d02_lazyman.LazyMan
 com/tw/d03_locked/LazyMan.java
  com.tw.d03_locked.LazyMan
 com/tw/d01_hungry/Hungry.java
  com.tw.d01_hungry.Hungry
+com/tw/d05_reflex/LazyMan.java
+ com.tw.d05_reflex.LazyMan
 com/tw/d04_volatilelocked/LazyMan.java
  com.tw.d04_volatilelocked.LazyMan
-com/tw/d06_innerclass/Holder.java
- com.tw.d06_innerclass.Holder
- com.tw.d06_innerclass.Holder$1
- com.tw.d06_innerclass.Holder$InnerClass
+com/tw/d05_reflex/LazyMan2.java
+ com.tw.d05_reflex.LazyMan2
+com/tw/d07_enum/EnumSingle.java
+ com.tw.d07_enum.EnumSingle
+com/tw/d05_reflex/LazyMan1.java
+ com.tw.d05_reflex.LazyMan1

@@ -1,10 +1,5 @@
 package com.tw.d04_volatilelocked;
 
-import org.junit.Test;
-
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-
 /**
  * 双重检测锁模式：DCL-加锁来避免线程问题
  * 问题：
@@ -24,9 +19,7 @@ import java.lang.reflect.Field;
  */
 public class LazyMan {
 
-    private static boolean flag = false;
-
-    public LazyMan() {
+    private LazyMan() {
         System.out.println(Thread.currentThread().getName() + "-ok");
     }
 

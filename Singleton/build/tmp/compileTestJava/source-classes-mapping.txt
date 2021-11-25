@@ -1,12 +1,14 @@
-com/tw/EnumSingleTest.java
- com.tw.EnumSingleTest
+com/tw/d03_locked/LazyManTest.java
+ com.tw.d03_locked.LazyManTest
 com/tw/d01_hungry/HungryTest.java
  com.tw.d01_hungry.HungryTest
-com/tw/LazyManTest1.java
- com.tw.LazyManTest1
-com/tw/d03_locked/LazyManTest1.java
- com.tw.d03_locked.LazyManTest1
 com/tw/d02_lazyman/LazyManTest.java
  com.tw.d02_lazyman.LazyManTest
 com/tw/LazyManTest2.java
  com.tw.LazyManTest2
+com/tw/LazyManTest1.java
+ com.tw.LazyManTest1
+com/tw/EnumSingleTest.java
+ com.tw.EnumSingleTest
+com/tw/d05_reflex/LazyManTest.java
+ com.tw.d05_reflex.LazyManTest

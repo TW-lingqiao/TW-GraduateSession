@@ -1,7 +1,7 @@
 package com.tw;
 
 
-import com.tw.d05_enum.EnumSingle;
+import com.tw.d06_enum.EnumSingle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import java.lang.reflect.Constructor;
